@@ -1,0 +1,348 @@
+WARNING:werkzeug: * Debugger is active!
+
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:31:32] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:31:58] "[37mGET /getid/4 HTTP/1.1[0m" 200 -INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:33:41] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:33:46] "[35m[1mGET /getid/10 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:33:46] "[37mGET /getid/10?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:33:46] "[37mGET /getid/10?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:33:47] "[37mGET /getid/10?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:33:47] "[37mGET /getid/10?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:33:47] "[37mGET /getid/10?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:33:47] "[37mGET /getid/10?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:34:09] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:34:13] "[33mGET /getid/10 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:34:50] "[33mGET /getid/10 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:Get info
+DEBUG:main:10: Not found in system
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:35:40] "[33mGET /getid/10 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:Get info
+DEBUG:main:10: Not found in system
+ERROR:main:10: Not found in system
+WARNING:main:10: Not found in system
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 10:36:24] "[33mGET /getid/10 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 11:40:27] "[33mGET /getid/10 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 12:07:26] "[33mGET /getid/10 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 12:21:53] "[33mGET /getid/10 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 12:24:58] "[33mGET /getid/10 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 12:25:02] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 13:30:13] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 13:30:18] "[33mGET /getid/0 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 13:30:21] "[33mGET /getid/1 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 13:30:24] "[33mGET /getid/2 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 13:30:27] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 13:30:29] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 13:30:33] "[33mGET /getid/5 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 13:30:37] "[33mGET /getid/ HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 13:30:40] "[33mGET /getid/6 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 13:30:45] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:22:37] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:23:32] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with windowsapi reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:24:01] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:24:06] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:24:07] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:24:07] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:24:19] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:24:32] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:25:47] "[33mGET /getid/5 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:25:50] "[33mGET /getid/6 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:25:53] "[33mGET /getid/5 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:25:58] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:26:01] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with windowsapi reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Restarting with windowsapi reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:26:57] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with windowsapi reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Restarting with windowsapi reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with windowsapi reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Restarting with windowsapi reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with windowsapi reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\Latest\\python_api\\main.py', reloading
+INFO:werkzeug: * Restarting with windowsapi reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with windowsapi reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-008-579
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:29:57] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:30:01] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:30:10] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:30:13] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:36:40] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:10] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:13] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:17] "[33mGET /getid/1 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:20] "[33mGET /getid/2 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:25] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:28] "[33mGET /getid/5 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:33] "[33mGET /getid/S HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:37] "[33mGET /getid/AS HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:40] "[33mGET /getid/1 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:43] "[33mGET /getid/0 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:46] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:49] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:52] "[33mGET /getid/7 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:41:56] "[33mGET /getid/78 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:42:00] "[33mGET /getid/2 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:42:03] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:42:06] "[33mGET /getid/5 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:42:09] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:43:26] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:43:29] "[33mGET /getid/5 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:43:32] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:43:35] "[33mGET /getid/2 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:43:41] "[33mGET /getid/1 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:43:43] "[33mGET /getid/2 HTTP/1.1[0m" 404 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:43:46] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 14:43:48] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 16:09:43] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-388-177
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:Get info
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 20:12:18] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 14:24:51,949 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-02-13 14:24:53,079 - Get info
+2021-02-13 14:24:53,855 - 127.0.0.1 - - [13/Feb/2021 14:24:53] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 14:24:54,343 - 127.0.0.1 - - [13/Feb/2021 14:24:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-13 14:24:57,892 - Get info
+2021-02-13 14:24:57,913 - 127.0.0.1 - - [13/Feb/2021 14:24:57] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-13 14:25:03,368 - Get info
+2021-02-13 14:25:03,376 - 127.0.0.1 - - [13/Feb/2021 14:25:03] "[33mGET /getid/5 HTTP/1.1[0m" 404 -
+2021-02-13 14:25:06,774 - Get info
+2021-02-13 14:25:06,779 - 127.0.0.1 - - [13/Feb/2021 14:25:06] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-13 14:25:09,906 - Get info
+2021-02-13 14:25:09,914 - 127.0.0.1 - - [13/Feb/2021 14:25:09] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 14:25:13,330 - Get info
+2021-02-13 14:25:13,338 - 127.0.0.1 - - [13/Feb/2021 14:25:13] "[33mGET /getid/2 HTTP/1.1[0m" 404 -
+2021-02-13 14:25:16,819 - Get info
+2021-02-13 14:25:16,862 - 127.0.0.1 - - [13/Feb/2021 14:25:16] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 14:25:19,977 - Get info
+2021-02-13 14:25:19,985 - 127.0.0.1 - - [13/Feb/2021 14:25:19] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-13 14:26:46,869 - Get info
+2021-02-13 14:26:46,885 - 127.0.0.1 - - [13/Feb/2021 14:26:46] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 15:18:33,580 - Get info
+2021-02-13 15:18:33,588 - 127.0.0.1 - - [13/Feb/2021 15:18:33] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 15:39:47,188 - Get info
+2021-02-13 15:39:47,196 - 127.0.0.1 - - [13/Feb/2021 15:39:47] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 15:39:49,501 - Get info
+2021-02-13 15:39:49,517 - 127.0.0.1 - - [13/Feb/2021 15:39:49] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-13 17:10:30,658 - Get info
+2021-02-13 17:10:30,685 - 127.0.0.1 - - [13/Feb/2021 17:10:30] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 17:10:35,825 - Get info
+2021-02-13 17:10:35,841 - 127.0.0.1 - - [13/Feb/2021 17:10:35] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-13 17:14:07,687 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-02-13 17:14:15,332 -  * Restarting with windowsapi reloader
+2021-02-13 17:14:17,049 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-02-13 17:14:19,359 - Get info
+2021-02-13 17:14:19,460 - 127.0.0.1 - - [13/Feb/2021 17:14:19] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-13 17:14:23,266 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-02-13 17:14:29,399 - Get info
+2021-02-13 17:14:29,421 - 127.0.0.1 - - [13/Feb/2021 17:14:29] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-13 17:14:32,523 - Get info
+2021-02-13 17:14:32,526 - 127.0.0.1 - - [13/Feb/2021 17:14:32] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 17:14:49,845 - Get info
+2021-02-13 17:14:49,848 - 127.0.0.1 - - [13/Feb/2021 17:14:49] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-13 17:15:16,515 - Get info
+2021-02-13 17:15:16,521 - 192.168.93.145 - - [13/Feb/2021 17:15:16] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-13 17:15:16,620 - 192.168.93.145 - - [13/Feb/2021 17:15:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-13 17:15:21,510 - Get info
+2021-02-13 17:15:21,513 - 192.168.93.145 - - [13/Feb/2021 17:15:21] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 17:15:27,181 - Get info
+2021-02-13 17:15:27,185 - 127.0.0.1 - - [13/Feb/2021 17:15:27] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 17:16:31,083 - Get info
+2021-02-13 17:16:31,088 - 192.168.93.145 - - [13/Feb/2021 17:16:31] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 17:16:34,561 - Get info
+2021-02-13 17:16:34,564 - 127.0.0.1 - - [13/Feb/2021 17:16:34] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-13 17:20:14,041 - Get info
+2021-02-13 17:20:14,046 - 127.0.0.1 - - [13/Feb/2021 17:20:14] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-13 17:20:20,787 - Get info
+2021-02-13 17:20:20,791 - 127.0.0.1 - - [13/Feb/2021 17:20:20] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-13 17:20:25,081 - Get info
+2021-02-13 17:20:25,087 - 127.0.0.1 - - [13/Feb/2021 17:20:25] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-15 09:47:00,355 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-02-15 09:48:05,166 - Get info
+2021-02-15 09:48:05,481 - 127.0.0.1 - - [15/Feb/2021 09:48:05] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-15 09:48:09,838 - 127.0.0.1 - - [15/Feb/2021 09:48:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-15 09:59:27,972 - Get info
+2021-02-15 09:59:27,987 - 127.0.0.1 - - [15/Feb/2021 09:59:27] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-15 09:59:31,848 - Get info
+2021-02-15 09:59:31,848 - 127.0.0.1 - - [15/Feb/2021 09:59:31] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-15 09:59:38,781 - Get info
+2021-02-15 09:59:38,784 - 127.0.0.1 - - [15/Feb/2021 09:59:38] "[37mGET /getid/4 HTTP/1.1[0m" 200 -
+2021-02-15 09:59:42,500 - Get info
+2021-02-15 09:59:42,503 - 127.0.0.1 - - [15/Feb/2021 09:59:42] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2021-02-15 09:59:46,214 - Get info
+2021-02-15 09:59:46,218 - 127.0.0.1 - - [15/Feb/2021 09:59:46] "[33mGET /getid/2 HTTP/1.1[0m" 404 -
+2021-02-15 09:59:51,266 - Get info
+2021-02-15 09:59:51,345 - 127.0.0.1 - - [15/Feb/2021 09:59:51] "[33mGET /getid/1 HTTP/1.1[0m" 404 -
+2021-02-15 09:59:57,229 - Get info
+2021-02-15 09:59:57,233 - 127.0.0.1 - - [15/Feb/2021 09:59:57] "[33mGET /getid/5 HTTP/1.1[0m" 404 -
+2021-02-15 10:00:00,970 - Get info
+2021-02-15 10:00:00,974 - 127.0.0.1 - - [15/Feb/2021 10:00:00] "[33mGET /getid/6 HTTP/1.1[0m" 404 -
+2021-02-15 10:00:04,709 - Get info
+2021-02-15 10:00:04,713 - 127.0.0.1 - - [15/Feb/2021 10:00:04] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
