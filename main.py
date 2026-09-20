@@ -115,4 +115,4 @@ if __name__ == '__main__':
     #app.run(host='192.168.43.96',port=8081,debug = True)
     import logging
     logging.basicConfig(filename='error.log',format='%(asctime)s - %(message)s',level=logging.DEBUG)
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0',debug = True)

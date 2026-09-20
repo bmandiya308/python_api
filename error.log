@@ -346,3 +346,33 @@ INFO:werkzeug:127.0.0.1 - - [07/Feb/2021 20:12:18] "[37mGET /getid/3 HTTP/1.1[
 2021-02-15 10:00:00,974 - 127.0.0.1 - - [15/Feb/2021 10:00:00] "[33mGET /getid/6 HTTP/1.1[0m" 404 -
 2021-02-15 10:00:04,709 - Get info
 2021-02-15 10:00:04,713 - 127.0.0.1 - - [15/Feb/2021 10:00:04] "[37mGET /getid/3 HTTP/1.1[0m" 200 -
+2026-09-20 10:13:02,463 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+2026-09-20 10:13:02,544 - [33mPress CTRL+C to quit[0m
+2026-09-20 10:14:40,439 - 192.168.1.38 - - [20/Sep/2026 10:14:40] "[33mGET / HTTP/1.1[0m" 404 -
+2026-09-20 10:14:40,501 - 192.168.1.38 - - [20/Sep/2026 10:14:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-20 10:14:43,837 - 192.168.1.38 - - [20/Sep/2026 10:14:43] "[33mGET / HTTP/1.1[0m" 404 -
+2026-09-20 10:14:56,886 - 127.0.0.1 - - [20/Sep/2026 10:14:56] "[33mGET / HTTP/1.1[0m" 404 -
+2026-09-20 10:14:56,927 - 127.0.0.1 - - [20/Sep/2026 10:14:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-20 10:22:15,168 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+2026-09-20 10:22:15,168 - [33mPress CTRL+C to quit[0m
+2026-09-20 10:22:47,285 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+2026-09-20 10:22:47,285 - [33mPress CTRL+C to quit[0m
+2026-09-20 10:22:47,292 -  * Restarting with stat
+2026-09-20 10:22:48,312 -  * Debugger is active!
+2026-09-20 10:22:48,319 -  * Debugger PIN: 113-636-065
+2026-09-20 10:22:51,262 - 127.0.0.1 - - [20/Sep/2026 10:22:51] "[33mGET / HTTP/1.1[0m" 404 -
+2026-09-20 10:23:15,449 - 127.0.0.1 - - [20/Sep/2026 10:23:15] "[35m[1mPOST /getid/2 HTTP/1.1[0m" 500 -
+2026-09-20 10:24:39,959 -  * Detected change in 'F:\\Latest\\python_api\\test.py', reloading
+2026-09-20 10:24:40,092 -  * Restarting with stat
+2026-09-20 10:24:40,967 -  * Debugger is active!
+2026-09-20 10:24:40,970 -  * Debugger PIN: 113-636-065
+2026-09-20 10:24:42,888 - 127.0.0.1 - - [20/Sep/2026 10:24:42] "[35m[1mPOST /getid/1 HTTP/1.1[0m" 500 -

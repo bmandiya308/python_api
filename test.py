@@ -41,14 +41,13 @@ books = [
 # print(response.content)
 
 #with DB
+response = requests.post(BASE + "getid/1", {"id":1,"title":"Report Card","published":2020,"author":"Dinkar jani"})
+print(response.json())
 
-# response = requests.post(BASE + "getid/1", {"id":1,"title":"Report Card","published":2020,"author":"Dinkar jani"})
-# print(response.json())
-#
-# response = requests.get(BASE + "getid/0")
-# print(response.json())
+response = requests.get(BASE + "getid/0")
+print(response.json())
 
-
+'''
 
 print("POST")
 
@@ -91,3 +90,4 @@ print("GET")
 input()
 response = requests.get(BASE + "getid/2")
 print(response.json())
+'''
