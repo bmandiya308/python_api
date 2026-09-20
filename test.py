@@ -1,93 +1,48 @@
 import requests
-import json
-BASE = "http://127.0.0.1:5000/"
+
+BASE = "http://127.0.0.1:5000"
 
 
-
-books = [
-        {'id': 2,
-        'title': 'A Fire Upon the Deep',
-        'author': 'Vernor Vinge',
-        'first_sentence': 'The coldsleep itself was dreamless.',
-        'published': '1992'},
-        {'id': 3,
-        'title': 'The Ones Who Walk Away From Omelas',
-        'author': 'Ursula K. Le Guin',
-        'first_sentence': 'With a clamor of bells that set the swallows soaring, the Festival of Summer came to the city Omelas, bright-towered by the sea.',
-        'published': '1973'},
-        {'id': 4,
-        'title': 'Dhalgren',
-        'author': 'Samuel R. Delany',
-        'first_sentence': 'to wound the autumnal city.',
-        'published': '1975'}
-]
+def print_response(label, response):
+    print(f"\n{label}")
+    print("status:", response.status_code)
+    try:
+        print("body:", response.json())
+    except ValueError:
+        print("body:", response.text)
 
 
-#response = requests.get(BASE + "getid/0")
-#print(response.json())
-#
-# response = requests.get(BASE + "getid/2")
-# print(response.json())
+# 1) GET a record that does not exist yet
+response = requests.get(f"{BASE}/getid/1")
+print_response("GET missing id=1", response)
 
-# #already exists
-# response = requests.post(BASE + "getid/3", {"id":3,"title":"Report Card","published":2020,"author":"Dinkar jani"})
-# print(response.json())
+# 2) POST create a book with valid JSON payload
+payload = {
+    "id": 1,
+    "title": "Report Card",
+    "author": "Dinkar jani",
+    "first_sentence": "This is a sample book entry.",
+    "published": 2020,
+}
+response = requests.post(f"{BASE}/getid/1", json=payload)
+print_response("POST create id=1", response)
 
-# response = requests.post(BASE + "getid/3", {"id":3,"title":"Report Card","published":2020,"author":"Dinkar jani"})
-# print(response.json())
+# 3) GET the created record
+response = requests.get(f"{BASE}/getid/1")
+print_response("GET created id=1", response)
 
+# 4) PATCH update the created record
+response = requests.patch(f"{BASE}/getid/1", json={"author": "Updated Author"})
+print_response("PATCH update id=1", response)
 
-# response = requests.delete(BASE + "getid/2")
-# print(response.content)
+# 5) GET again to confirm update
+response = requests.get(f"{BASE}/getid/1")
+print_response("GET updated id=1", response)
 
-#with DB
-response = requests.post(BASE + "getid/1", {"id":1,"title":"Report Card","published":2020,"author":"Dinkar jani"})
-print(response.json())
+# 6) DELETE the record
+response = requests.delete(f"{BASE}/getid/1")
+print_response("DELETE id=1", response)
 
-response = requests.get(BASE + "getid/0")
-print(response.json())
-
-'''
-
-print("POST")
-
-try:
-    for i in books:
-        response = requests.post(BASE + "getid/" + str(i['id']), i)
-        print(response.json())
-except:
-    print("API is not accesible")
-    exit()
-    
-print("POST")
-
-input()
-response = requests.get(BASE + "getid/2")
-
-
-print(response.json())
-
-print("PATCH")
-
-input()
-response = requests.patch(BASE + "getid/2", {"published":2022,"author":"Bhaskar Mandiya"})
-print(response.json())
-
-print("GET")
-
-input()
-response = requests.get(BASE + "getid/2")
-print(response.json())
-
-print("DELETE")
-
-input()
-response = requests.delete(BASE + "getid/2")
-print(response.json())
-
-print("GET")
-
-input()
-response = requests.get(BASE + "getid/2")
-print(response.json())
-'''
+# 7) GET after delete to confirm removal
+response = requests.get(f"{BASE}/getid/1")
+print_response("GET after delete id=1", response)

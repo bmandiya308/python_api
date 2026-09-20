@@ -1,118 +1,109 @@
-from flask import Flask, request, jsonify
-from flask_restful import Api, Resource,reqparse,abort,fields,marshal_with
+from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
-import json
+from werkzeug.exceptions import HTTPException
 
 app = Flask(__name__)
-api = Api(app)
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///api.db'
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///api.db"
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
 db = SQLAlchemy(app)
 
-class Books(db.Model):
-    id = db.Column(db.Integer,primary_key=True)
-    title = db.Column(db.String(20),nullable=False)
-    author = db.Column(db.String(30))
-    first_sentence = db.Column(db.String(100))
-    published = db.Column(db.Integer)
 
-    #def __repr__(self):
-        #return f"Book(id = {id},title = {title}, author = {author}, first_sentence = {first_sentence},  published = {published})"
+class Book(db.Model):
+    __tablename__ = "books"
 
-#db.create_all()  ##one time activity , otherwise it will overrid
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(100), nullable=False)
+    author = db.Column(db.String(100), nullable=False)
+    first_sentence = db.Column(db.String(255), nullable=True)
+    published = db.Column(db.Integer, nullable=True)
 
-put_args = reqparse.RequestParser()
-put_args.add_argument("id",type=int,help="Id is uniq", required=True)
-put_args.add_argument("title",type=str,help="title", required=True)
-put_args.add_argument("author",type=str,help="Name of Author please", required=True)
-put_args.add_argument("first_sentence",type=str,help="Description")
-put_args.add_argument("published",type=int,help="published Year")
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "title": self.title,
+            "author": self.author,
+            "first_sentence": self.first_sentence,
+            "published": self.published,
+        }
 
-update_args = reqparse.RequestParser()
-update_args.add_argument("id",type=int,help="Id is uniq")
-update_args.add_argument("title",type=str,help="title")
-update_args.add_argument("author",type=str,help="Name of Author please")
-update_args.add_argument("first_sentence",type=str,help="Description")
-update_args.add_argument("published",type=int,help="published Year")
 
-resource_fields = {
-    'id': fields.Integer,
-    'title': fields.String,
-    'author': fields.String,
-    'first_sentence': fields.String,
-    'published': fields.String
-}
+@app.errorhandler(HTTPException)
+def handle_http_exception(error):
+    return jsonify({"message": error.description or error.name}), error.code or 500
 
-def abort_if_id_doesnt_exist(id):
-    if id not in books:
-        abort(404, messgae="id is not valid")
-def abort_if_id_already_exists(id):
-    if id in books:
-        abort(409, messgae="id already exists")
 
-class Getdetails(Resource):
+with app.app_context():
+    db.create_all()
 
-##Select
-    @marshal_with(resource_fields) ##make return object serilisable
-    def get(self,id):
-        app.logger.info("Get info")
-        result = Books.query.filter_by(id=id).first()
-        if not result:
-            #app.logger.debug(str(id) + ": Not found in system")
-            #app.logger.error(str(id) + ": Not found in system")
-            #app.logger.warning(str(id) + ": Not found in system")
-            abort(404, message= str(id) + " - is not available")
-        return result
 
-##Insert
-    @marshal_with(resource_fields)
-    def post(self,id):
-        result = Books.query.filter_by(id=id).first()
-        if result:
-            abort(409,message=str(id) + "- Already Created !")
-        result = put_args.parse_args()
-        book = Books(id=id,title=result['title'],author=result['author'],first_sentence=result['first_sentence'],published=result['published'])
+@app.route("/getid/<int:id>", methods=["GET", "POST", "PATCH", "DELETE"])
+def getdetails(id):
+    if request.method == "GET":
+        book = Book.query.filter_by(id=id).first()
+        if not book:
+            return jsonify({"message": f"{id} - is not available"}), 404
+        return jsonify(book.to_dict())
+
+    if request.method == "POST":
+        if Book.query.filter_by(id=id).first():
+            return jsonify({"message": f"{id} - Already Created !"}), 409
+
+        payload = request.get_json(silent=True) or {}
+        if not payload:
+            return jsonify({"message": "Request body must be JSON"}), 400
+
+        title = payload.get("title")
+        author = payload.get("author")
+        if not title or not author:
+            return jsonify({"message": "title and author are required"}), 400
+
+        book = Book(
+            id=id,
+            title=title,
+            author=author,
+            first_sentence=payload.get("first_sentence"),
+            published=payload.get("published"),
+        )
         db.session.add(book)
         db.session.commit()
-        return book,201
+        return jsonify(book.to_dict()), 201
 
-##Update
-    @marshal_with(resource_fields)
-    def patch(self,id):
-        args = update_args.parse_args()
-        result = Books.query.filter_by(id=id).first()
-        if not result:
-            abort(404, message=str(id) + " - is not available")
-        if args['author']:
-            result.author = args['author']
-        if args['published']:
-            result.published = args['published']
+    if request.method == "PATCH":
+        book = Book.query.filter_by(id=id).first()
+        if not book:
+            return jsonify({"message": f"{id} - is not available"}), 404
+
+        payload = request.get_json(silent=True) or {}
+        if not payload:
+            return jsonify({"message": "Request body must be JSON"}), 400
+
+        if "title" in payload and payload["title"] is not None:
+            book.title = payload["title"]
+        if "author" in payload and payload["author"] is not None:
+            book.author = payload["author"]
+        if "first_sentence" in payload and payload["first_sentence"] is not None:
+            book.first_sentence = payload["first_sentence"]
+        if "published" in payload and payload["published"] is not None:
+            book.published = payload["published"]
+
         db.session.commit()
-        return result
+        return jsonify(book.to_dict())
 
-##Delete
-    @marshal_with(resource_fields)
-    def delete(self,id):
-        result = Books.query.filter_by(id=id).first()
-        if not result:
-            abort(404, message=str(id) + " - Not available so cant delete")
-        Books.query.filter_by(id=id).delete()
+    if request.method == "DELETE":
+        book = Book.query.filter_by(id=id).first()
+        if not book:
+            return jsonify({"message": f"{id} - Not available so cant delete"}), 404
+
+        db.session.delete(book)
         db.session.commit()
-        return result
+        return jsonify({"message": f"Book {id} deleted", "id": id})
 
-api.add_resource(Getdetails, "/getid/<int:id>")
-
-# @app.route('/', methods = ['POST','GET'])
-# def index():
-#     return jsonify(books)
-
-# @app.route('/getbook/<id>', methods = ['POST','GET'])
-# def get(id):
-#     return jsonify(books[int(id)])
+    return jsonify({"message": "Method not allowed"}), 405
 
 
-if __name__ == '__main__':
-    #app.run(host='192.168.43.96',port=8081,debug = True)
+if __name__ == "__main__":
     import logging
-    logging.basicConfig(filename='error.log',format='%(asctime)s - %(message)s',level=logging.DEBUG)
-    app.run(host='0.0.0.0',debug = True)
+
+    logging.basicConfig(filename="error.log", format="%(asctime)s - %(message)s", level=logging.INFO)
+    app.run(host="0.0.0.0", debug=True)
